@@ -1,0 +1,109 @@
+/* @ Mathis PLUMAIL | Home page Google */
+body{
+    padding: 0;
+    margin: 0;
+    max-height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.nav a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.tab{
+    background-image: url(img/tab.png);
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+}
+.connexion{
+    background-color: #4387fd;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+/* Middle */
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.barre{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    max-width: 500px;
+}
+input[type="text"] { 
+    border-radius: 20px; 
+    /* border: 1px; */
+    height: 30px;
+}
+#in{
+    width: 582px;
+}
+.fa-search{
+    color: #5f6368;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.fa-microphone{
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#bouton{
+    background-color: #f2f2f2;
+    padding: 12px;
+    border: 0px;
+    color: #5f6368;
+    margin-right: 15px;
+    font-size: medium;
+}
+/** FOOTER**/
+.france{
+    color: #5f6368;
+    margin-left: 30px;
+}
+footer{    
+    position:absolute;    
+    bottom: 0;    
+    width: 100%;    
+    padding-top: 50px;    
+}
+footer a{
+    color: #5f6368;
+    text-decoration: none;
+    margin-right: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.pub{
+    margin-left: 30px;
+}
+.main{
+    background-color: #f2f2f2;
+    /* max-width:1280px; */
+    min-height:100%;
+    margin:0 10px;
+    position:relative; 
+    margin-bottom: 15px;   
+}
+.div1{
+    display: inline;
+    margin-right: 330px;
+}
+.div2{
+    display: inline;
+}
